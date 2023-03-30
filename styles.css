@@ -54,7 +54,7 @@ form {
 }
 
 .btnCreate {
-  padding: 10px 15px;
+  padding: 10px 5%;
   background-image: linear-gradient(
     109.6deg,
     rgba(62, 161, 219, 1) 11.2%,
@@ -130,11 +130,11 @@ form {
 @media only screen and (max-width: 768px) {
   .mainCard {
     width: 80vw;
-    margin: 20px;
+    margin: 10px;
   }
 
   .inputForm {
-    width: 50%;
+    width: 58%;
   }
 }
 
