@@ -54,7 +54,7 @@ form {
 }
 
 .btnCreate {
-  padding: 10px 15px;
+  padding: 10px 5%;
   background-image: linear-gradient(
     109.6deg,
     rgba(62, 161, 219, 1) 11.2%,
@@ -124,4 +124,46 @@ form {
 
 .noTasks {
   font-size: 48px;
+}
+
+/* Media query para pantallas pequeñas */
+@media only screen and (max-width: 768px) {
+  .mainCard {
+    width: 80vw;
+    margin: 10px;
+  }
+
+  .inputForm {
+    width: 58%;
+  }
+}
+
+/* Media query para pantallas medianas */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .mainCard {
+    width: 70vw;
+  }
+
+  .inputForm {
+    width: 60%;
+  }
+
+  .btnCreate {
+    width: 30%;
+  }
+}
+
+/* Media query para pantallas grandes */
+@media only screen and (min-width: 1025px) {
+  .mainCard {
+    width: 40vw;
+  }
+
+  .inputForm {
+    width: 65%;
+  }
+
+  .btnCreate {
+    width: auto;
+  }
 }
